@@ -60,7 +60,7 @@ export default function Page({ params }) {
                         This field is required
                     </span>)}
                 </div>
-                <button className="btn btn-success">Add</button>
+                <button className="btn btn-success">{params.id ? <div>Save</div> : <div>Add</div>}</button>
             </div>
         </form >
     </>);

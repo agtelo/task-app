@@ -10,7 +10,7 @@ export default function TaskCard({ task }) {
     return (
         <>
             <div>
-                <div className="card w-96 m-5 bg-primary text-primary-content" onClick={() => router.push(`/edit/${task.id}`)}>
+                <div className="card w-96 m-5 bg-primary text-primary-content hover:bg-purple-400" onClick={() => router.push(`/edit/${task.id}`)}>
                     <div className="card-body">
                         <h2 className="card-title">{task.title}</h2>
                         <p>{task.description}</p>
