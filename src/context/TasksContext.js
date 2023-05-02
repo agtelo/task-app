@@ -1,6 +1,6 @@
 "use client";
 
-import { useLocalStorage } from "@/hooks/UseLocalStorage";
+import { useLocalStorage } from "../hooks/UseLocalStorage";
 import { createContext, useContext } from "react";
 import { v4 as uuid } from "uuid";
 
